@@ -1,0 +1,13 @@
+name: DonationAlert
+author: ArkadSt
+version: 1.0
+main: org.arkadst.donationalert.Main
+api-version: 1.16
+
+commands:
+  alert:
+    description: "DonationAlert provided command."
+    permission: donationalert.admin
+  donationalert:
+    description: "DonationAlert provided command."
+    permission: donationalert.admin
