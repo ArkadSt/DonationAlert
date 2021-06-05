@@ -28,7 +28,7 @@ public class Main extends JavaPlugin {
 
         config = getConfig();
 
-        this.getCommand("alert").setExecutor(new AlertCommand(this));
+        this.getCommand("announce").setExecutor(new AnnounceCommand(this));
         this.getCommand("donationalert").setExecutor(new DonationAlertCommand(this));
     }
 

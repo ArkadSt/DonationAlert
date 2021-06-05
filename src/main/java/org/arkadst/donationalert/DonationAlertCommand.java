@@ -24,12 +24,12 @@ public class DonationAlertCommand implements CommandExecutor {
                     sender.sendMessage(ChatColor.GREEN + "[DonationAlert] Configuration file was reloaded successfully");
                     break;
                 default:
-                    sender.sendMessage(ChatColor.RED + "No such command.");
+                    sender.sendMessage(ChatColor.RED + "[DonationAlert] No such command.");
                     break;
             }
 
         } else {
-            sender.sendMessage(ChatColor.RED + "No such command.");
+            sender.sendMessage(ChatColor.RED + "[DonationAlert] No such command.");
         }
         return true;
     }

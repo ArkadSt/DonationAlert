@@ -5,8 +5,9 @@ main: org.arkadst.donationalert.Main
 api-version: 1.16
 
 commands:
-  alert:
+  announce:
     description: "DonationAlert provided command."
+    usage: "§cUsage: /announce COLOR message"
     permission: donationalert.admin
   donationalert:
     description: "DonationAlert provided command."

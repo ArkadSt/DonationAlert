@@ -11,11 +11,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-public class AlertCommand implements CommandExecutor {
+public class AnnounceCommand implements CommandExecutor {
 
     Main main;
 
-    AlertCommand(Main main){
+    AnnounceCommand(Main main){
         this.main = main;
     }
 
