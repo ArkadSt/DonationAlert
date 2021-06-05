@@ -6,7 +6,6 @@ import org.bukkit.boss.KeyedBossBar;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
 
